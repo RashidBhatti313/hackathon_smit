@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student List</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gradient-to-r from-blue-400 to-purple-500 flex items-center justify-center h-screen">
+
+  <div class="bg-white p-10 rounded-lg shadow-2xl w-full max-w-4xl">
+    <h1 class="text-4xl font-bold text-center text-gray-700 mb-10">Student List</h1>
+
+    <div class="overflow-x-auto">
+      <table class="w-full table-auto text-left bg-white shadow-md rounded-lg">
+        <thead>
+          <tr class="bg-purple-600 text-white text-lg">
+            <th class="p-4">first_name</th>
+            <th class="p-4">last_name</th>
+            <th class="p-4">email</th>
+            <th class="p-4">password</th>
+            <th class="p-4">cnic</th>
+            <th class="p-4">userType</th>
+            <th class="p-4">Actions</th>
+          </tr>
+        </thead>
+        <tbody id="tableBody">
+        </tbody>
+        
+      </table>
+    </div>
+  </div>
+  <script type="module" src="studentList.js"></script>
+</body>
+</html>
